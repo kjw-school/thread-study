@@ -20,14 +20,18 @@ dependencies {
 application {
     mainClass.set("org.kjw.reetrantlock_example.Main") // 메인 클래스 이름으로 변경
     applicationDefaultJvmArgs = listOf(
+        "--enable-preview",
         "--module-path", "/path/to/javafx-sdk/lib", // JavaFX SDK 경로
         "--add-modules", "javafx.controls,javafx.fxml"
     )
 }
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_11
-    targetCompatibility = JavaVersion.VERSION_11
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(21))
+    }
 }
 
 tasks.test {
