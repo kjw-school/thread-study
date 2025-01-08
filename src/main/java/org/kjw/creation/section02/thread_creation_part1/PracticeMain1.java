@@ -1,4 +1,4 @@
-package org.kjw.creation.thread_creation_part1;
+package org.kjw.creation.section02.thread_creation_part1;
 
 public class PracticeMain1 {
 

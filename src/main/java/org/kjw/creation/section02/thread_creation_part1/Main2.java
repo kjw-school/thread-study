@@ -1,4 +1,4 @@
-package org.kjw.creation.thread_creation_part1;/*
+package org.kjw.creation.section02.thread_creation_part1;/*
  * Copyright (c) 2019-2023. Michael Pogrebinsky - Top Developer Academy
  * https://topdeveloperacademy.com
  * All rights reserved
